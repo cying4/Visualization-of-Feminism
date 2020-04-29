@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>DATS 6401 Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <script type="text/javascript"
+    src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="logo">
+				<div id="logo_text">
+					<h1><br>Feminism Analysis</h1>
+				</div><!-- logo_text -->
+			</div><!-- logo -->
+        </div><!-- header -->
+        <nav class="nav">
+            <ul>
+                <li><a  style="color: #61e;"href="index.html">Home</a></li>
+                <li><a  href="status.html">Work Status</a></li>
+                <li><a  href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </nav>
+<!-- Main content -->
+<h1>Introduction</h1>
+<br>
+
+<p>Feminism is a hot topic over decades. A lot of organizations put efforts on improving females'
+interests through different kind of aspects like job opportunity, social status, economical status, etc.
+However, up to now, even women's consumption capcaity is kept increasing, woman's right is improved or 
+not is still a problem and easily gives rise to dispution.</p> 
+<p>In this project, I want to explore this question by visualizing the data about female's working 
+status from different respects in the world over last years. In this way, users can easily draw conclusions
+by themselves about whether feminism is successful or not.</p>
+<p>The project will give users a comparison between female and male's working status in agriculture,
+self-employment, industry and service. I will show the change over years in different countries. In this
+way, we can see if women have enough power in today's world.</p>
+
+<img id="feminism_image" src="femi.jpg" alt="feminism Image" style="width: 800px;">
+<br><br>
+
+<h2>Labor force participation from aged 24-54.</h2>
+<p>The below map shows that for age group 24-54, percentage of female and male labor to their total population.
+The users can see the difference between them and change of the labor force participation over years in the whole
+world by clicking the tab. The raw data is from gapminder(https://www.gapminder.org/data/). I chose the range from 
+2010 to 2019 as analysis target.</p>
+
+<!--Tableau public embedded-->
+<div class='tableauPlaceholder' id='viz1587983764546' style='position: relative'>
+    <noscript>
+        <a href='#'>
+        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RB&#47;RBM8BDXH4&#47;1_rss.png' style='border: none' />
+        </a>
+    </noscript>
+    <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared&#47;RBM8BDXH4' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RB&#47;RBM8BDXH4&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='filter' value='publish=yes' /></object></div>                
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1587983764546');     
+    var vizElement = divElement.getElementsByTagName('object')[0];         
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+<br>
+
+<h2>Findings</h2>
+<p>From the map, we can see that female's labor force participation in middle east is very low.
+For example, Iran's female participation to total femlale population is only 19.9% but male's 
+participation is 88.4%. Even in 2019, the female's particpation in Iran is still 21%. The interesting
+thing is that in 2019, male's labor participation is derceased little compared to 2010 and female's 
+participation is increased in the whole world. The reason behind this case worth consideration.</p>
+<br>
+
+<h2>Data Sources</h2>
+The main data source for this project is the work database provides by gapminder. 
+<a href="https://www.gapminder.org/data/" target="blank">[source link]</a>
+<img src="gap.png" style="width: 800px; height: 60px;">
+<br>
+
+<address>April 2020 @Changhao Ying
+<br>
+The George Washington University, Data science
+</address>
+			
+	</div><!-- main -->
+</body>
+</html>
